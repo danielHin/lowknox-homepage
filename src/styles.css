@@ -185,6 +185,10 @@ i {
   color: #ffffff
 }
 
+.history {
+  opacity: 40%;
+}
+
 p > a,
 h3 > a,
 h4 > a {
