@@ -1,6 +1,7 @@
 @font-face {
   font-family: futura;
-  src: url(assets/webfonts/Futura-Medium.ttf)
+  src: url(assets/webfonts/Futura-Medium.ttf) format('truetype');
+  font-display: swap;
 }
 
 body,
@@ -8,12 +9,9 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "futura", "Tahoma";
+  font-family: "futura", "Tahoma", system-ui, -apple-system, sans-serif;
   font-size: 1em;
-  background: #000000;
   background: linear-gradient(to bottom right, rgba(0, 0, 0, 1) 0%, rgb(40, 40, 40) 100%);
-  background: -webkit-linear-gradient(to bottom right, rgba(0, 0, 0, 1) 0%, rgb(40, 40, 40) 100%);
-  background: -moz-linear-gradient(to bottom right, rgba(0, 0, 0, 1) 0%, rgb(40, 40, 40) 100%);
   background-attachment: fixed;
 }
 
@@ -78,6 +76,7 @@ ul {
   padding: 2em;
   padding-top: 1em;
   max-width: 480px;
+  min-height: 500px;
 }
 
 ul > li {
@@ -85,6 +84,10 @@ ul > li {
   border-radius: 1em;
   margin: 1.4em 0;
   transition: transform 300ms ease-out;
+  height: 3.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 ul > li > a {
