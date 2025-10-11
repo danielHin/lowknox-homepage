@@ -93,5 +93,34 @@
     {
         "date": "02.05.2025",
         "location": "Troisdorf - Jugendkulturcafe"
+    },
+    {
+        "date": "31.01.2026",
+        "location": "Jülich - Kuba",
+        "link": "https://www.kuba-juelich.de/"
+    },
+    {
+        "date": "28.02.2026",
+        "location": "Kirchheim - Rülps",
+        "link": "https://www.ruelps-kirchheim.de/"
+    },
+    {
+        "date": "07.03.2026",
+        "location": "Münster - Baracke",
+        "link": "https://baracke.ms/baracke/"
+    },
+    {
+        "date": "20.03.2026",
+        "location": "Bremgarten (CH) - KuZeB",
+        "link": "https://www.kuzeb.ch/"
+    },
+    {
+        "date": "21.03.2026",
+        "location": "Thun (CH) - AKuT",
+        "link": "https://www.akut-thun.ch/"
+    },
+    {
+        "date": "25.04.2026",
+        "location": "Ansbach - TBA"
     }
 ]
