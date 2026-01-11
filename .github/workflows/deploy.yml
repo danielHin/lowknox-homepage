@@ -18,3 +18,4 @@ jobs:
                   local-dir: ./src/
                   server-dir: webpage/
                   protocol: ftps
+                  dangerous-clean-slate: true
